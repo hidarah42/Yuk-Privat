@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Tab>
+    <tab
+        id="@+id/tab_home"
+        icon="@drawable/home"
+        activeColor="@color/warnamurid"
+        titleSize="5dp"
+        title="Home"
+        />
+
+    <tab
+        id="@+id/tab_notifikasi"
+        icon="@drawable/notifikasi"
+        activeColor="@color/warnamurid"
+        titleSize="5dp"
+        title="Notifikasi"
+        />
+
+    <tab
+        id="@+id/tab_cariguru"
+        icon="@drawable/person"
+        activeColor="@color/warnamurid"
+        titleSize="5dp"
+        title="Cari Guru"
+        />
+
+    <tab
+        id="@+id/tab_profil"
+        icon="@drawable/profil"
+        activeColor="@color/warnamurid"
+        titleSize="5dp"
+        title="Profil"
+        />
+
+    <tab
+        id="@+id/tab_keluar"
+        icon="@drawable/exit"
+        activeColor="@color/warnamurid"
+        titleSize="5dp"
+        title="Keluar"
+        />
+</Tab>

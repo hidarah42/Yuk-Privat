@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Tab>
+    <tab
+        id="@+id/tab_homeguru"
+        icon="@drawable/home"
+        activeColor="@color/warnaguru"
+        titleSize="5dp"
+        title="Home"
+        />
+
+    <tab
+        id="@+id/tab_notifikasiguru"
+        icon="@drawable/notifikasi"
+        activeColor="@color/warnaguru"
+        titleSize="5dp"
+        title="Notifikasi"
+        />
+
+    <tab
+        id="@+id/tab_jadwalguru"
+        icon="@drawable/jadwalguru"
+        activeColor="@color/warnaguru"
+        titleSize="5dp"
+        title="Jadwal"
+        />
+
+    <tab
+        id="@+id/tab_profilguru"
+        icon="@drawable/profil"
+        activeColor="@color/warnaguru"
+        titleSize="5dp"
+        title="Profil"
+        />
+
+    <tab
+        id="@+id/tab_keluarguru"
+        icon="@drawable/exit"
+        activeColor="@color/warnaguru"
+        titleSize="5dp"
+        title="Keluar"
+        />
+</Tab>

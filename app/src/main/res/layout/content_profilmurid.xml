@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.hidarah42.yukprivat.Murid.Profilmurid"
+    tools:showIn="@layout/profilmurid">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/ppmurid"
+        android:src="@drawable/pp"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"/>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textinputnamamurid"
+        android:layout_below="@id/ppmurid"
+        android:layout_marginTop="10dp">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edittextnamamurid"
+            android:hint="Nama"
+            android:textColor="@color/warnamurid"
+            android:backgroundTint="@color/warnamurid"/>
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textinputjeniskelaminmurid"
+        android:layout_below="@id/textinputnamamurid"
+        android:layout_marginTop="10dp">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edittextjeniskelaminmurid"
+            android:hint="Jenis Kelamin"
+            android:textColor="@color/warnamurid"
+            android:backgroundTint="@color/warnamurid"/>
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textinputalamatmurid"
+        android:layout_below="@id/textinputjeniskelaminmurid"
+        android:layout_marginTop="10dp">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edittextalamatmurid"
+            android:hint="Alamat"
+            android:textColor="@color/warnamurid"
+            android:backgroundTint="@color/warnamurid"/>
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textinputnohpmurid"
+        android:layout_below="@id/textinputalamatmurid"
+        android:layout_marginTop="10dp">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edittextnohmurid"
+            android:hint="No HP"
+            android:textColor="@color/warnamurid"
+            android:backgroundTint="@color/warnamurid"/>
+    </android.support.design.widget.TextInputLayout>
+    
+</RelativeLayout>

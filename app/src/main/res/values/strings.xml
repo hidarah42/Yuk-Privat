@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">Yuk Privat</string>
+    <string name="title_activity_dashboardguru">Yuk Privat</string>
+    <string name="title_activity_dashboardmurid">Yuk Privat</string>
+    <string name="title_activity_notifikasimurid">Yuk Privat</string>
+    <string name="title_activity_cariguru">Yuk Privat</string>
+    <string name="title_activity_profilmurid">Yuk Privat</string>
+    <string name="title_activity_notifikasiguru">Yuk Privat</string>
+    <string name="title_activity_jadwalguru">Yuk Privat</string>
+    <string name="title_activity_profilguru">Yuk Privat</string>
+    <string name="title_activity_editprofilguru">Edit Profil</string>
+    <string name="title_activity_keahlian">Keahlian</string>
+    <string name="title_activity_editprofilmurid">Edit Profil</string>
+
+    //array jumlah keahlian
+    <string-array name="keahlianguru">
+        <item>-pilih Keahlian-</item>
+        <item>Keahlian 1</item>
+        <item>Keahlian 2</item>
+        <item>Keahlian 3</item>
+    </string-array>
+
+    //array mata pelajaran
+    <string-array name="matapelajaran">
+        <item>-Pilih Matapelajaran-</item>
+        <item>Bahasa_Indonesia</item>
+        <item>Bahasa_Inggris</item>
+        <item>Matematika_IPA</item>
+        <item>Biologi</item>
+        <item>Fisika</item>
+        <item>Kimia</item>
+        <item>Matematika_IPS</item>
+        <item>Ekonomi</item>
+        <item>Geografi</item>
+        <item>Sosiologi</item>
+    </string-array>
+
+    //array wilayah
+    <string-array name="wilayahnya">
+        <item>-Pilih Wilayahnya-</item>
+        <item>Beji</item>
+        <item>Bojongsari</item>
+        <item>Cilodong</item>
+        <item>Cimanggis</item>
+        <item>Cinere</item>
+        <item>Cipayung</item>
+        <item>Limo</item>
+        <item>Pancoran_mas</item>
+        <item>Sawangan</item>
+        <item>Sukmajaya</item>
+        <item>Tapos</item>
+    </string-array>
+
+    //array jk murid
+    <string-array name="jkmurid">
+        <item>-Jenis Kelamin-</item>
+        <item>Laki-laki</item>
+        <item>Perempuan</item>
+    </string-array>
+
+    //array hari murid
+    <string-array name="harimurid">
+        <item>-Pilih Hari-</item>
+        <item>Senin</item>
+        <item>Selasa</item>
+        <item>Rabu</item>
+        <item>Kamis</item>
+        <item>Jumat</item>
+        <item>Sabtu</item>
+        <item>Minggu</item>
+    </string-array>
+    <string name="title_activity_hasilcariguru">Cari Guru</string>
+    <string name="title_activity_profilhasilguru">Profil Guru</string>
+    <string name="title_activity_detailpesan">Cari Guru</string>
+    <string name="title_activity_profilnotifikasimurid">Informasi</string>
+    <string name="title_activity_jadwalmurid">Jadwal Murid</string>
+</resources>

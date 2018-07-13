@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="110dp"
+                android:layout_height="130dp"
+                android:id="@+id/ldmpp"
+                android:src="@drawable/pp"
+                android:layout_marginLeft="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ldmnama"
+                android:textColor="@color/warnaguru"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@id/ldmpp"
+                android:layout_marginLeft="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ldmmatpel"
+                android:layout_below="@id/ldmnama"
+                android:textColor="@color/warnaguru"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@id/ldmpp"
+                android:layout_marginLeft="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ldmhari"
+                android:textColor="@color/warnaguru"
+                android:layout_below="@id/ldmmatpel"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@id/ldmpp"
+                android:layout_marginLeft="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ldmjam"
+                android:textColor="@color/warnaguru"
+                android:layout_below="@id/ldmhari"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@id/ldmpp"
+                android:layout_marginLeft="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ldmalamat"
+                android:textColor="@color/warnaguru"
+                android:layout_below="@id/ldmjam"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@id/ldmpp"
+                android:layout_marginLeft="5dp"/>
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>
